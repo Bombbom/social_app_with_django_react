@@ -50,6 +50,9 @@
 | `pytest-django`                           |
 | `python-decouple`                         |
 
+## Models
+
+![alt text](backend/diagrams/all_models.png)
 
 ## Demo API
 
@@ -92,6 +95,25 @@
 > Demo
 
 
+![](Image/api_demo_user_list.png)
+
+![](Image/api_demo_auth_register.png)
+
+![](Image/api_demo_auth_login.png)
+
+![](Image/api_demo_auth_refresh.png)
+
+> [!NOTE]
+> 
+> Demo with data
+
+![](Image/register.png)
+
+![](Image/login.png)
+
+![](Image/create_post.png)
+
+....
 
 ## Testing
 
@@ -136,7 +158,31 @@ core/user/tests.py ......                                                       
 * Run redis docker: `docker run -it --rm --name redis -p 6379:6379 redis:7.2.4`
 * Install node, npm, yarn
 * Install package: `yarn install`
+* Config .env file 
 * Run frontend: `yarn start`
+* Access: `http://localhost:3000/`
+
+## Frontend demo
+> [!NOTE]
+> 
+> Demo with frontend.
+
+
+![](Image/demo1.png)
+
+![](Image/demo2.png)
+
+![](Image/demo3.png)
+
+![](Image/demo4.png)
+
+![](Image/demo5.png)
+
+![](Image/demo6.png)
+
+![](Image/demo7.png)
+
+
 
 ## References 
 * Django 5 documentation
