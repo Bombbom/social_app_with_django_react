@@ -1,12 +1,12 @@
 # Readme
 
-> [!INFORMATION]
+> [!NOTE]
 > 
 > Social Blog application with DRF and React.
 
 ## Overview 
 
-> [!INFORMATION]
+> [!NOTE]
 > 
 > This project combines Django REST Framework (DRF) for the backend and React for the frontend to build a social application. The application implements essential features such as user authentication, post creation, liking, commenting, and associated CRUD operations. The frontend in React interacts with the backend API built using DRF, making the application efficient and scalable.
 
@@ -28,6 +28,9 @@
   * The like count for comments is displayed and updated accordingly.
 
 ## Packages
+> [!NOTE]
+> 
+> Packages in this project.
 
 | Packages                                  | Description | Installation/Note |
 | ----------------------------------------- | ----------- | ----------------- |
@@ -50,7 +53,7 @@
 
 ## Demo API
 
-> [!INFORMATON]
+> [!NOTE]
 > 
 > API Lists
 
@@ -84,7 +87,7 @@
 /api/user/<pk>/ core.user.viewsets.UserViewSet  core-api:user-detail
 ```
 
-> [!INFORMATION]
+> [!NOTE]
 > 
 > Demo
 
@@ -92,7 +95,7 @@
 
 ## Testing
 
-> [!INFORMATION]
+> [!NOTE]
 > 
 > Using pytest with django.
 
